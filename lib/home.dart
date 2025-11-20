@@ -14,7 +14,7 @@ class Home extends StatelessWidget {
           Navigator.push(context, MaterialPageRoute(builder: (_)=>CalculatorPage()));
         }, child: Text('menu calculator')),
         ElevatedButton(onPressed: (){
-          Navigator.push(context, MaterialPageRoute(builder: (_)=>ListPage()));
+          Navigator.push(context, MaterialPageRoute(builder: (_)=>ListDataPage()));
         }, child: Text('menu list data'))
       ],)),
     );
